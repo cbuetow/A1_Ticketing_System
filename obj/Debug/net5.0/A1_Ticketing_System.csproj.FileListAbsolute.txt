@@ -1,0 +1,16 @@
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\bin\Debug\net5.0\A1_Ticketing_System.exe
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\bin\Debug\net5.0\A1_Ticketing_System.deps.json
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\bin\Debug\net5.0\A1_Ticketing_System.runtimeconfig.json
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\bin\Debug\net5.0\A1_Ticketing_System.runtimeconfig.dev.json
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\bin\Debug\net5.0\A1_Ticketing_System.dll
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\bin\Debug\net5.0\ref\A1_Ticketing_System.dll
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\bin\Debug\net5.0\A1_Ticketing_System.pdb
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\obj\Debug\net5.0\A1_Ticketing_System.csprojAssemblyReference.cache
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\obj\Debug\net5.0\A1_Ticketing_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\obj\Debug\net5.0\A1_Ticketing_System.AssemblyInfoInputs.cache
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\obj\Debug\net5.0\A1_Ticketing_System.AssemblyInfo.cs
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\obj\Debug\net5.0\A1_Ticketing_System.csproj.CoreCompileInputs.cache
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\obj\Debug\net5.0\A1_Ticketing_System.dll
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\obj\Debug\net5.0\ref\A1_Ticketing_System.dll
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\obj\Debug\net5.0\A1_Ticketing_System.pdb
+C:\Users\cbuet\.Net Database Programming\A1_Ticketing_System\obj\Debug\net5.0\A1_Ticketing_System.genruntimeconfig.cache
