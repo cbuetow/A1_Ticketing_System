@@ -28,10 +28,9 @@ namespace A1_Ticketing_System
                         {
                             string line = sr.ReadLine();
                             // convert string to array
-                            string[] arr = line.Split('|');
+                            string[] arr = line.Split(',');
                             // display array data
-                            Console.WriteLine("TicketID: {0}, Summary: {1}, Status: {2}, Priority: {3}, Submitter: {4}, Assigned: {5}, Watching: {6}",
-                            arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6]);
+                            Console.WriteLine("TicketID, Summary, Status, Priority, Submitter, Assigned, Watching \n {0}, {1}, {2}, {3}, {4}, {5}, {6}", arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6]);
                         }
                         sr.Close();
                         
@@ -59,16 +58,28 @@ namespace A1_Ticketing_System
                         string submitter = Console.ReadLine();
                         Console.Write("Enter assigned person: ");
                         string assigned = Console.ReadLine();
-                        Console.Write("Enter person watching: ");
-                        string watching = Console.ReadLine();
-                        sw.WriteLine("{0}|{1}|{2}|{3}|{4}|{5}|{6}", resp, summary, status, priority, submitter, assigned, watching);
+                        string watching = "";
+                        string watching2 = "";
+                        
+                        for(int j = 0; j < 7; j++)
+                        {
+                            Console.Write("Enter person watching: ");
+                            watching = Console.ReadLine();
+                            Console.Write("Enter another person watching? (Y/N): ");
+                            string watchResp = Console.ReadLine().ToUpper();
+                            if (watchResp == "N")
+                            {watching2 += "|" + watching; break;}
+                            else {watching2 += "|" + watching; }
+                        }
+                        
+                        sw.WriteLine("{0},{1},{2},{3},{4},{5},{6}", resp, summary, status, priority, submitter, assigned, watching2);
                         Console.WriteLine("Enter another ticket? (Y/N): ");
                         string rerun = Console.ReadLine().ToUpper();
                         if (rerun != "Y") { break; }
                     }
                     sw.Close();
                 }
-            } while (choice == "1" || choice == "2");
+            } while (choice == "1" || choice == "2"); 
         }
     }
 }
